@@ -15,4 +15,4 @@ UUID=85014db6-136d-481f-9252-a4e69c082794 /var/tmp       btrfs   subvol=/@tmp,de
 UUID=85014db6-136d-481f-9252-a4e69c082794 /var/log       btrfs   subvol=/@log,defaults,noatime,compress=zstd,commit=120 0 0
 tmpfs                                     /tmp           tmpfs   defaults,noatime,mode=1777 0 0
 UUID=48D2B025D2B01960                     /mnt/extrastuff ntfs   defaults,user,uid=1000,gid=1000,umask=022 0 0
-UUID=B6EE6C72EE6C2CB5			  /mnt/windows   ntfs    defaults,user,uid=1000,gid=1000,umask=022 0 0
+UUID=B6EE6C72EE6C2CB5			                /mnt/windows   ntfs    defaults,user,uid=1000,gid=1000,umask=022 0 0
