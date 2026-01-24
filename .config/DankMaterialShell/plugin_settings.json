@@ -1,0 +1,35 @@
+{
+  "dankActions": {
+    "enabled": true,
+    "variants": []
+  },
+  "calculator": {
+    "enabled": true,
+    "trigger": "="
+  },
+  "dankDesktopWeather": {
+    "enabled": true
+  },
+  "powerUsagePlugin": {
+    "enabled": true,
+    "selectedPopout": "processList"
+  },
+  "emojiLauncher": {
+    "enabled": true,
+    "noTrigger": false,
+    "trigger": ":"
+  },
+  "dankLauncherKeys": {
+    "enabled": true,
+    "noTrigger": true,
+    "trigger": ""
+  },
+  "sathiAi": {
+    "enabled": true,
+    "openaiApiKey": "",
+    "aiModel": "gpt-5.2-codex"
+  },
+  "amdGpuMonitor": {
+    "enabled": true
+  }
+}
