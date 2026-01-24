@@ -1,0 +1,46 @@
+# My external drives
+[[mgr.prepend_keymap]]
+on   = [ "g", "e" ]
+run  = "cd /mnt/extrastuff1"
+desc = "Go Extra Stuff1"
+
+[[mgr.prepend_keymap]]
+on = [ "g", "r" ]
+run = "cd /mnt/extrastuff2"
+desc = "Go Extra Stuff 2"
+
+# ### PLUGINS ###
+# bunny
+[[mgr.prepend_keymap]]
+desc = "Start bunny.yazi"
+on = ";"
+run = "plugin bunny"
+
+[[mgr.prepend_keymap]]
+desc = "Start bunny.yazi fuzzy search"
+on = "F"
+run = "plugin bunny fuzzy"
+
+# chmod
+[[mgr.prepend_keymap]]
+on   = [ "c", "m" ]
+run  = "plugin chmod"
+desc = "Chmod on selected files"
+
+# what-size
+[[mgr.prepend_keymap]]
+on = [ "n", "s" ]
+run  = "plugin what-size"
+desc = "Calc size of selection or cwd" 
+
+# recycle-bin
+[[mgr.prepend_keymap]]
+on = [ "R", "b" ]
+run = "plugin recycle-bin"
+desc = "Open Recycle Bin menu" 
+
+# wl-clipboard
+[[mgr.prepend_keymap]]
+on = [ "C", "y" ] 
+run = "plugin wl-clipboard"
+desc = "Copy file to clipboard"
